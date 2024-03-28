@@ -98,7 +98,7 @@ function NameInputBox() {
                     please enter a name:
                 </label> 
                 <div>
-                    <input type="text" id="player-name" value={playerName} onChange={changeName} className="input-box"></input> 
+                    <input type="text" id="player-name" value={playerName} onChange={changeName} className="input-box"  autoComplete='off'></input> 
                 </div>
                 <div>
                 <input type="image" src={startImage} className='start-button-img'></input> 
