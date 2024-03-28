@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './styles.css';
 
-import StartButton from './components/startComponent';
+import TitlePage from './pages/titlePage';
 import StartPage from './pages/startPage';
 import LocationPage from './pages/locationPage';
 import GeneralPage from './pages/generalPage';
@@ -13,7 +13,8 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/">
-            <Route index element={<StartPage />} />
+            <Route index element={<TitlePage />} />
+            <Route path="start" element={<StartPage />} />
             <Route path="space" element={<LocationPage />} />
             <Route path="a-healing-place" element={<GeneralPage />}/>
             <Route path="a-soft-place" element={<GeneralPage />}/>

@@ -18,7 +18,7 @@ function NameInputBox() {
     const [playerName, setName] = useState('');
     const [warningMsg, setWarningMsg] = useState('');
     const [showWarning, setShowWarning] = useState(false)
-    const [playing, setPlaying] = useState(false);
+    const [playing, setPlaying] = useState(true);
 
     const changeName = (event) => {
         setName(event.target.value);
@@ -74,7 +74,6 @@ function NameInputBox() {
         if (playing) {
             sessionStorage.setItem('music', 'true');
             sessionStorage.setItem('current_sound', 'main menu');
-            mainMenuSound.load();
             mainMenuSound.play();
             mainMenuSound.loop = true;
         } else {
@@ -90,9 +89,9 @@ function NameInputBox() {
     // when click ok, hide the whole form
     const html = 
     <div>
-        <button className='sound-button' onClick={toggleSound}>
+        {/* <button className='sound-button' onClick={toggleSound}>
             <img src={playing ? soundOnImage : soundOffImage} className='sound-button-img'></img>                
-        </button>        
+        </button>         */}
         <div className="input-name">
             <form className="input-name-form" onSubmit={handleSubmit}>
                 <label className="input-label">

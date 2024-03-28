@@ -46,6 +46,20 @@ html, body {
   max-height: 100%;
 }
 
+.start {
+  position: absolute;
+  /* top:0; */
+  bottom: 5%;
+  /* left: 0; */
+  right: 22%;
+  
+  margin: auto;
+  align-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .start-button-img {
   width: 200px;
   height: auto;
@@ -319,4 +333,12 @@ html, body {
     margin: 0px;
     overflow: hidden;
     
+  }
+
+  .play-button-img {
+    width: 200px;
+    height: auto;
+    cursor: pointer;
+    margin: auto;
+    align-items: center;
   }

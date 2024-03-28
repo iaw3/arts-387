@@ -17,6 +17,21 @@
         }
     },
     {
+        "type": "temp",
+        "branch": false,
+        "content":
+            {
+                "options": [
+                    {
+                        "text": "huh?"
+                    },
+                    {
+                        "text": "who you callin' loser?"
+                    }
+                ]
+            }
+    },
+    {
         "type": "dialogue",
         "branch": false,
         "content": {
@@ -81,6 +96,21 @@
         }
     },
     {
+        "type": "temp",
+        "branch": false,
+        "content":
+            {
+                "options": [
+                    {
+                        "text": "Right."
+                    },
+                    {
+                        "text": "I mean, I guess."
+                    }
+                ]
+            }
+    },
+    {
         "type": "dialogue",
         "branch": false,
         "content": {
@@ -104,6 +134,21 @@
             "name": "Gouda",
             "dialogue": "Or you're just kind of...nothing."
         }
+    },
+    {
+        "type": "temp",
+        "branch": false,
+        "content":
+            {
+                "options": [
+                    {
+                        "text": "Nothing?"
+                    },
+                    {
+                        "text": "Well, then what are you?"
+                    }
+                ]
+            }
     },
     {
         "type": "dialogue",
@@ -178,6 +223,21 @@
             "name": "{player}",
             "dialogue": "..."
         }
+    },
+    {
+        "type": "temp",
+        "branch": false,
+        "content":
+            {
+                "options": [
+                    {
+                        "text": "ummnnn... . Okay!"
+                    },
+                    {
+                        "text": "Hell yeah man"
+                    }
+                ]
+            }
     },
     {
         "type": "dialogue",
@@ -318,6 +378,22 @@
                 }
             }, 
             {
+                "type": "temp",
+                "branch": true,
+                "content": 
+                    {
+                        "options": [
+                            {
+                                "text": "Ha, Screw that."
+                          
+                            },
+                            {
+                                "text": "Yeah, and that puts so much pressure on you."
+                            }
+                        ]
+                }
+            },
+            {
                 "type": "dialogue",
                 "branch": true,
                 "content": {
@@ -356,7 +432,26 @@
                     "name": "Gouda",
                     "dialogue": "You feel me?"
                 }
-            }, 
+            },
+            {
+                "type": "temp",
+                "branch": true,
+                "content": 
+                    {
+                        "options": [
+                            {
+                                "text": "absolutely"
+                          
+                            },
+                            {
+                                "text": "hell yeah"
+                            },
+                            {
+                                "text": "well actually.."
+                            }
+                        ]
+                }
+            },
             {
                 "type": "dialogue",
                 "branch": true,
@@ -379,6 +474,22 @@
                 "content": {
                     "name": "Gouda",
                     "dialogue": "Come around again sometime and I'll figure out what you are."
+            }
+        },
+            {
+                "type": "temp",
+                "branch": true,
+                "content": 
+                    {
+                        "options": [
+                            {
+                                "text": "I like the sound of that."
+                          
+                            },
+                            {
+                                "text": "I'll see you around, dude"
+                            }
+                        ]
                 }
             }
         ], 
@@ -458,11 +569,49 @@
                 }
             },
             {
+                "type": "temp",
+                "branch": true,
+                "content": 
+                    {
+                        "options": [
+                            {
+                                "text": "Maybe"
+                          
+                            },
+                            {
+                                "text": "A coward?"
+                            },
+                            {
+                                "text": "that seems reductive."
+                            }
+                        ]
+                }
+            },
+            {
                 "type": "dialogue",
                 "branch": true,
                 "content": {
                     "name": "Gouda",
                     "dialogue": "Or just afraid of who you could be, if you let yourself?"
+                }
+            },
+            {
+                "type": "temp",
+                "branch": true,
+                "content": 
+                    {
+                        "options": [
+                            {
+                                "text": "You don't know me at all."
+                          
+                            },
+                            {
+                                "text": "is that for you to decide?"
+                            },
+                            {
+                                "text": "I didn't ask to be therapized right now."
+                            }
+                        ]
                 }
             },
             {
